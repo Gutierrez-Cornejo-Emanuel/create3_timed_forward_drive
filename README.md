@@ -5,7 +5,7 @@ docker exec -it ta_create3 bash
 
 # Refresh bash environment & start fastdds server inside docker container
 ```
-source ~/.bashrc #This shouldn't be necessary but sometimes it fixes topics not showing up
+source ~/.bashrc # This shouldn't be necessary but sometimes it fixes topics not showing up
 fastdds discovery -i 0 -l 192.168.186.3 -p 11811
 ```
 
