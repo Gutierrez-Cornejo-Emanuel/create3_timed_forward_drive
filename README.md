@@ -3,8 +3,9 @@
 docker exec -it ta_create3 bash
 ```
 
-# Run fastdds server inside docker container
+# Refresh bash environment & start fastdds server inside docker container
 ```
+source ~/.bashrc
 fastdds discovery -i 0 -l 192.168.186.3 -p 11811
 ```
 
